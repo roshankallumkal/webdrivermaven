@@ -21,6 +21,7 @@ public class Logintest {
 	@Test
 	public void login() {
 		driver.get("http://gmail.com");
+		System.out.println("This is awsome !!!");
 	}
 	
 	@AfterSuite
